@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    width: 100%;
+    background: white;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: 900;
+	border: none;
+	cursor: pointer;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:312px) {
+
+    /* PÁGINA PRINCIPAL */
+    
+    h1 {
+        text-align: left;
+        color: white;
+        font-size: 2.6em;
+        line-height: 1.1em;
+        margin-bottom: 5px;
+    }
+    
+    .czar{
+        background: black;
+        color: white;
+        margin-bottom: 20px;
+        font-size: 1.3em;
+        font-weight: 900;
+        border: none;
+        width: 100%;
+        padding: 15px 0;
+        border-radius: 5px;
+        text-decoration: none;
+        border: solid 2px white;
+    }
+    
+    
+    .jogador{
+        background: white;
+        color: black;
+        margin-bottom: 20px;
+        font-size: 1.3em;
+        font-weight: 900;
+        border: none;
+        width: 100%;
+        padding: 15px 0px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    
+    /* OUTRAS PÁGINAS */
+    
+    #container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+        padding: 20px;
+    }
+    
+    .voltar {
+        padding: 0px 10px;
+        text-decoration: none;
+        margin-top: 20px;
+        color: rgb(110, 110, 110);
+    }
+    
+    #troca {
+        color: rgb(110, 110, 110);
+        font-size: 42px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+          
+    ion-icon {
+        font-size: 38px;
+      }
+    
+    h2 {
+        text-align: left;
+        color: white;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    
+    h3 {
+        color: white;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 0.1em;
+        margin-bottom: 40px;
+    }
+    
+    #btn-brancas {
+        background: white;
+        color: black;
+    }
+    
+    #btn-limpar {
+        background: rgb(226, 60, 60);
+        color: white;
+    }
+    
+    #cartas {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 100%;
+        padding: 10px 10px;
+        gap: 15px;
+        border: solid 1px white;
+        border-radius: 5px;
+    }
+    
+    #cartas img {
+        width: 250px;
+        height: 250px;
+        cursor: pointer;
+    }
+    
+    #cartas img:hover {
+    opacity: 70%;
+}
+    
+}
+
+@media screen and (min-width: 512px) {
+
+/* PÁGINA PRINCIPAL */
+
+h1 {
+    color: white;
+    font-size: 3.5em;
+}
+
+.czar {
+    width: 340px;
+}
+
+.jogador {
+    width: 340px;
+}
+
+/* OUTRAS PÁGINAS */
+
+#container {
+    width: auto;
+}
+
+ion-icon {
+    font-size: 42px;
+  }
+
+#btn-brancas {
+    background: white;
+	color: black;
+    width: 360px;
+}
+
+#btn-preta {
+    background: white;
+	color: black;
+    width: 360px;
+}
+
+#btn-limpar {
+    background: rgb(226, 60, 60);
+	color: white;
+    width: 360px;
+}
+
+#cartas {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 340px;
+    max-width: 1042px;
+    padding: 20px 20px;
+    gap: 20px;
+}
+
+#cartas img {
+    width: 320px;
+    height: 320px;
+
+}
+
+}
