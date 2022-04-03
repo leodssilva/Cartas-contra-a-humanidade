@@ -5,7 +5,8 @@ let btnSwap = document.getElementById('troca')
 let divCards = document.getElementById('cartas')
 
 function addWhite() {
-
+    
+    divCards.innerHTML = ""
     for (let i = 1; i <= 6; i++) {
         const random = Math.floor(Math.random() * 299) + 1;
 

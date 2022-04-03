@@ -5,6 +5,7 @@ let divCards = document.getElementById('cartas')
 
 function addBlack() {
 
+        divCards.innerHTML = ""
         const random = Math.floor(Math.random() * 99) + 1;
 
         var image = document.createElement("img");
