@@ -7,7 +7,7 @@ let divCards = document.getElementById('cartas')
 function addWhite() {
 
     for (let i = 1; i <= 6; i++) {
-        const random = Math.floor(Math.random() * 219) + 1;
+        const random = Math.floor(Math.random() * 299) + 1;
 
         var image = document.createElement("img");
 
